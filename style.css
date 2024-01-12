@@ -1,0 +1,177 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+
+
+}
+
+.form1 {
+    margin: 30px;
+    border: 2px solid gray;
+    width: 328px;
+    height: 210px;
+    padding: 5px;
+}
+
+h1 {
+    color: rgb(33, 3, 55);
+}
+
+.table-one th,
+td {
+    border: 2px solid rgb(167, 158, 158);
+
+}
+
+.name-text {
+    border: 2px solid rgb(167, 158, 158);
+    padding: 3px;
+}
+
+
+.name-text input {
+    width: 250px;
+    padding: 3px 0px;
+}
+
+.age-text {
+    border: 2px solid rgb(167, 158, 158);
+
+}
+
+.age-text input {
+    width: 250px;
+    padding: 3px 0px;
+
+}
+
+.gender-select {
+    border: 2px solid rgb(167, 158, 158);
+}
+
+.gender-select {
+    padding-right: 115px;
+}
+
+.course-option {
+    border: 2px solid rgb(167, 158, 158);
+    padding: 4px 0px;
+}
+
+.course-select {
+    width: 253px;
+    padding: 2px 0px;
+    margin: 0px 3px;
+}
+
+.email-text {
+    border: 2px solid rgb(167, 158, 158);
+    padding: 2px 0px;
+
+}
+
+.email-text input {
+    width: 250px;
+    padding: 2px 0px;
+    margin: 0px 1.5px;
+}
+
+row-six {
+    border: 2px solid gray;
+
+}
+
+.button-style {
+    border: 2px solid black;
+    background-color: rgb(0, 255, 187);
+    padding: 3px 140px;
+    margin-left: 2px;
+
+
+}
+
+.save-button {
+    border: 2px solid rgb(167, 158, 158);
+    width: 320px;
+    margin-left: 1.5px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+/* form 2 */
+.table-two {
+    border: 2px solid rgb(167, 158, 158);
+    text-align: center;
+    /* border-collapse: collapse; */
+
+}
+
+.table-two th {
+    border: 2px solid rgb(167, 158, 158);
+    padding: 5px;
+}
+
+.table-two td {
+    padding: 5px;
+}
+
+.deleted-button {
+    background-color: red;
+    color: white;
+    border-color: black;
+    padding: 3px;
+    
+}
+
+
+
+
+
+
+/* .form2 {
+    margin-top: 50px;
+    border: 4px solid rgb(167, 158, 158);
+    width: 566px;
+}
+.table-two th,td {
+    padding: 7px;
+    margin: auto;
+    text-align: center;
+    border: 3px solid gray;
+ }
+    /* border-collapse: collapse;*/
+
+
+/* .table-two { 
+    margin: -2px;
+    border-collapse: collapse;
+
+}
+
+.row2 button {
+    background-color: rgb(224, 29, 29);
+    color: white;
+    border-color: gray;
+}
+
+.row3 button {
+    background-color: rgb(224, 29, 29);
+    color: white;
+    border-color: gray;
+}
+.delete_button{
+    background-color: rgb(224, 29, 29);
+    color: white;
+    border-color: gray;
+    width: 55px;
+}  */

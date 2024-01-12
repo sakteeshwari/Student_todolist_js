@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>STUDENT FORM</h1>
+    <!--form 1-->
+    <form class="form1">
+        <!--table 1-->
+        <table class="table-one" id="tableonez">
+
+            <tr class="row_one" id="name-input">
+                <th class="name-style">Name</th>
+                <th class="name-text"> <input type="text" id="name-input-box"></th>
+            </tr>
+            <tr class="row_two" >
+                <th class="age-style">Age</th>
+                <th class="age-text"> <input type="text" id="age-input"></th>
+            </tr>
+
+            <tr class="row_three" id="gender-input">
+                <th class="gender-style">Gender</th>
+                <td class="gender-select" id="gender-selection"><input type="radio" id="gender1" name="male_female" value="Male">Male
+                    <input type="radio" id="gender2" name="male_female" value="female">Female
+                </td>
+            </tr>
+            <tr class="row_four" >
+                <th class="course-style">Course</th>
+                <td class="course-option" id="course-input">
+                    <select class="course-select" id="myselectoption" >
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>Bootstrap</option>
+                        <option>Javascript</option>
+                        <option>React js</option>
+                    </select>
+                </td>
+            </tr>
+           
+            <tr class="row_five" id="email-input">
+                <th class="email-style">E-mail</th>
+                <td class="email-text"> <input type="text" id="email"></td>
+            </tr>
+        </table>
+        <span class="save-button"><button type="button" class="button-style" id="button-save">Save</button></span>
+    </form>
+    <!--form 2-->
+    <form class="form2" id="formtwo">
+        <!--table 2-->
+        <table class="table-two" id="table-two">
+            <tr class="row1" id="row1-box">
+                <th id="name">NAME</th>
+                <th id="age">AGE</th>                
+                <th id="gender">GENDER</th>
+                <th id="course">COURSE</th>
+                <th id="email">EMAIL</th>
+                <th id="action">ACTION</th>
+            </tr>
+             <!-- <tr class="row2" id="row2-box">
+                <td>Sakthi</td>
+                <td>22</td>
+                <td>Male</td>
+                <td>PYTHON</td>
+                <td>sakthijessy@gmail.com</td>
+
+                <td><button onclick="deleted(event)" class="delete-button" id="button-delete">Delete</button></td>
+            </tr> -->
+            
+            <!-- <tr class="row3"> 
+                <td>Keerthi</td>
+                <td>23</td>
+                <td>JavaScript</td>
+                <td>Male</td>
+                <td>keerthisakthi@gmail.com</td>
+                <td><button onclick="deleted(event)">Delete</button></td>
+            </tr> -->
+
+        </table>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+   
+<!-- function add() {
+
+    //select first two inputbox
+    var text1 = document.getElementById('rowonez').value;
+    var text2 = document.getElementById('rowtwoz').value;
+     
+    //select gender radio buttons 
+    var genderRadios = document.getElementsByName('male_female');
+    var gender;
+    //using for and if radio buttons
+    for (var i = 0; i < genderRadios.length; i++) {
+        if (genderRadios[i].checked) {
+            gender = genderRadios[i].value;
+            break;
+        }
+    }
+   
+    //selecting select option
+    var selectOption = document.getElementById('myselectoption');
+    var selectedIndex = selectOption.selectedIndex;
+    var text4 = selectOption.options[selectedIndex].text;
+
+    //selecting mailid inputbox
+    var text5 = document.getElementById('rowfivez').value;
+
+    //selecting table 2
+    var table2 = document.getElementById('tabletwoz');
+    //-1 indicates the table row from last to first 
+    var row = table2.insertRow(-1)
+
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
+    var cell5 = row.insertCell(4);
+    var cell6 = row.insertCell(5);
+    cell1.innerHTML = text1;
+    cell2.innerHTML = text2;
+    cell3.innerHTML = gender;
+    cell4.innerHTML = text4;
+    cell5.innerHTML = text5;
+    cell6.innerHTML = '<button onclick="deleted(event)" class="delete_button">delete</button>'
+}
+function deleted(event) {
+    event.target.parentElement.parentElement.remove()
+} -->
